@@ -2,7 +2,7 @@
 
 # Installer for Sysdig Agent on IBM Cloud Kubernetes Service (IKS)
 
-set -e
+set -ex
 
 function install_curl_deb {
     export DEBIAN_FRONTEND=noninteractive
